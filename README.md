@@ -1,4 +1,5 @@
 # Used electric cars
+![welcome to my page](https://parvinaodinaeva.github.io/IV---homepage_bem-normalize-git/)
 This article describes the advantages and disadvantages of buying used cars
 
 ## Technologies used

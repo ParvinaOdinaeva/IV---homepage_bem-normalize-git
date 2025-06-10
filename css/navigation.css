@@ -1,0 +1,25 @@
+.navigation {
+    border: 2px solid rgb(233, 241, 239);
+    padding-left: 40px;
+}
+
+
+.nav__containerHeader {
+    padding-left: 2px;
+    color: ccc;
+}
+
+
+.nav__linkLists {
+    padding-left: 0px;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.nav__listItem {
+    margin: 5px 0;
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+}

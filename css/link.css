@@ -1,0 +1,12 @@
+.link:focus {
+    outline: 2px solid currentColor;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+.link:active {
+    color: rgb(19, 8, 139);
+}

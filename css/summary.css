@@ -1,0 +1,14 @@
+.summary {
+    border: 4px solid #20a3dd;
+    padding: 40px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.summary__list {
+    margin: 5px 0;
+}
+
+.summary__header {
+    padding-left: 40px;
+}

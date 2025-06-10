@@ -1,0 +1,15 @@
+.questions {
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+
+.question__list {
+    padding-left: 40px;
+}
+
+
+.question__listItem {
+    font-weight: 700;
+    color: #012074;
+}

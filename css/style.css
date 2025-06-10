@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.bodyContainer {
+    max-width: 1200px;
+    margin: 50px auto;
+    border: 1px solid rgb(233, 241, 239);
+    border-radius: 10px;
+    padding: 20px;
+    outline: 1px solid rgb(196, 236, 225);
+    outline-offset: 5px;
+    box-shadow: inset 0px 0px 0px 6px #E6EFEF;
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.calculator {
+    text-decoration: none;
+    color: white;
+    background-color: #012074;
+    padding: 5px;
+}
+
+
+.bodybackground {
+    box-shadow: inset 0px 0px 90px -7px #AEE2DD;
+}
+
+.hide {
+    display: none;
+}

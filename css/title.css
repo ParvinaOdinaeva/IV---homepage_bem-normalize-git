@@ -1,0 +1,13 @@
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #012074;
+}
+
+.title__mainImage {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}

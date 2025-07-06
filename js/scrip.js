@@ -3,9 +3,11 @@
   let bodyContainer = document.querySelector(".bodyContainer");
   let backgroundButtonChange = document.querySelector(".backgroundButtonChange");
 
-  backgroundButtonChange.addEventListener("click", () => {
+  const backgroungChange = () => {
     bodyContainer.classList.toggle("bodybackground");
-  });
+  }
+
+    backgroundButtonChange.addEventListener("click", backgroungChange);
 }
 
 {
@@ -13,9 +15,11 @@
   let questionHideButton = document.querySelector(".questionHideButton");
   let word = document.querySelector(".word");
 
-  questionHideButton.addEventListener("click", () => {
+  const questinHide =  () => {
     questions.classList.toggle("hide");
     
     word.innerText = questions.classList.contains("hide") ? "Pokaż" : "Ukryj";
-  });
+  }
+  
+  questionHideButton.addEventListener("click", questinHide);
 }

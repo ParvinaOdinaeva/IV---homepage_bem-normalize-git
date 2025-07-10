@@ -1,25 +1,29 @@
 {
-  let bodybackground = document.querySelector(".bodybackground");
-  let bodyContainer = document.querySelector(".bodyContainer");
-  let backgroundButtonChange = document.querySelector(".backgroundButtonChange");
-
   const backgroungChange = () => {
+    const bodyContainer = document.querySelector(".bodyContainer");
+    const bodybackground = document.querySelector(".bodybackground");
     bodyContainer.classList.toggle("bodybackground");
-  }
+  };
 
+  const init = () => {
+    const backgroundButtonChange = document.querySelector(".backgroundButtonChange");
     backgroundButtonChange.addEventListener("click", backgroungChange);
+  };
+  init();
 }
 
 {
-  let questions = document.querySelector(".questions");
-  let questionHideButton = document.querySelector(".questionHideButton");
-  let word = document.querySelector(".word");
-
-  const questinHide =  () => {
+  const questinHide = () => {
+    const questions = document.querySelector(".questions");
+    const word = document.querySelector(".word");
     questions.classList.toggle("hide");
-    
     word.innerText = questions.classList.contains("hide") ? "Pokaż" : "Ukryj";
-  }
-  
-  questionHideButton.addEventListener("click", questinHide);
+  };
+
+  const init = () => {
+    const questionHideButton = document.querySelector(".questionHideButton");
+    questionHideButton.addEventListener("click", questinHide);
+  };
+
+  init();
 }
